@@ -1,0 +1,54 @@
+html {
+	font-size: 10px; /* base font is now 10px big */
+	font-family: "Open Sans", sans-serif; /* this specifies the font family */
+}
+
+a[href="https://www.eloramilan.com"] {	/* element[attribute] */
+	color: blue;
+}
+
+body {
+	width: 700px;
+	margin: 0 auto;
+	/*background-color: #FF9500; */
+	padding: 0 40px 40px 40px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 20px 20px rgba(0,0,0,0.23);
+}
+
+#main-header {	/* #element-id */ 
+	font-size: 60px;
+	font-family: monospace;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+	color: cyan;
+	/*background-color: rgba(45, 45, 45, 0.1);*/
+	/*text-shadow: 3px 3px 1px gray;*/
+}
+
+h2 {
+	font-size: 20px;
+}
+
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+}
+
+a:hover {	/* element:state - known as "pseudo-class selector */
+	font-size: 20px
+}
+
+.p-headings {	/* .class */
+	color: orange;
+}
+input {  /* doesn't work */
+	font-size: 10px;
+}
