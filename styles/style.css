@@ -26,29 +26,59 @@ body {
 	/*text-shadow: 3px 3px 1px gray;*/
 }
 
+ul[class="navbar-ul"] {
+	list-style-type: none;
+	margin: 0 140px 0 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #EEE;
+	position: relative;
+	left: 80px;
+	
+}
+
+.navbar-li {
+	float: left;
+	margin: 5px 30px;
+}
+
+li a {
+	display: block;
+	color: gray;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+li a:hover {
+	background-color: #333;
+	color: #EEE;
+}
+
 h2 {
 	font-size: 20px;
 }
 
-p, li {
+p {
 	font-size: 16px;
 	line-height: 2;
 	letter-spacing: 1px;
 }
 
+#goal-list {
+	list-style-type: circle;
+	list-style-position: inside;
+	font-size: 14px;
+}
 img {
 	display: block;
 	margin: 0 auto;
 	width: 300px;
 }
 
-a:hover {	/* element:state - known as "pseudo-class selector */
-	font-size: 20px
-}
-
 .p-headings {	/* .class */
 	color: orange;
 }
 input {  /* doesn't work */
-	font-size: 10px;
+	font-size: 14px;
 }
