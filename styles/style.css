@@ -10,8 +10,8 @@ a[href="https://www.eloramilan.com"] {	/* element[attribute] */
 body {
 	width: 700px;
 	margin: 0 auto;
-	/*background-color: #FF9500; */
 	padding: 0 40px 40px 40px;
+	background: linear-gradient(45deg, #CFF, #FCC);
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 20px 20px rgba(0,0,0,0.23);
 }
 
@@ -69,6 +69,15 @@ p {
 	list-style-type: circle;
 	list-style-position: inside;
 	font-size: 14px;
+}
+
+
+div {
+	border-radius: 20px;
+	width: 70%;
+	height: 400px;
+	margin: 50px auto;
+	background: linear-gradient(45deg, #CFF, #FCC);
 }
 img {
 	display: block;
