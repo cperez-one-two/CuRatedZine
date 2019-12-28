@@ -8,30 +8,35 @@ a[href="https://www.eloramilan.com"] {	/* element[attribute] */
 }
 
 body {
-	width: 700px;
+	width: 1000px;
 	margin: 0 auto;
 	padding: 0 40px 40px 40px;
-	background: linear-gradient(45deg, #CFF, #FCC);
+	/*background: linear-gradient(45deg, #CFF, #FCC);*/
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 20px 20px rgba(0,0,0,0.23);
 }
 
+hr {
+	color: #EEE;
+}
+
 #main-header {	/* #element-id */ 
-	font-size: 60px;
-	font-family: monospace;
+	font-size: 40px;
+	font-family: 'Crete Round', serif;
 	margin: 0 auto;
 	text-align: center;
 	padding: 20px 0;
-	color: cyan;
+	color: #F03710;
 	/*background-color: rgba(45, 45, 45, 0.1);*/
 	/*text-shadow: 3px 3px 1px gray;*/
 }
 
 ul[class="navbar-ul"] {
 	list-style-type: none;
-	margin: 0 140px 0 0;
+	margin: 10px 140px 0 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #EEE;
+	/*background-color: #F6F6F6;*/
+	border-radius: 10px;
 	position: relative;
 	left: 80px;
 	
@@ -39,15 +44,15 @@ ul[class="navbar-ul"] {
 
 .navbar-li {
 	float: left;
-	margin: 5px 30px;
+	margin: 5px 75px;
 }
 
 li a {
 	display: block;
 	color: gray;
-	padding: 14px 16px;
+	padding: 5px 14px;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 li a:hover {
