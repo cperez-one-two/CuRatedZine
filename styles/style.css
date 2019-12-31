@@ -30,6 +30,10 @@ hr {
 	/*text-shadow: 3px 3px 1px gray;*/
 }
 
+#test-image1 {
+	transform: skewX(25deg);
+}
+
 ul[class="navbar-ul"] {
 	list-style-type: none;
 	margin: 10px 140px 0 0;
