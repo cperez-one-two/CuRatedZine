@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+#goal-list	styles/style.css	/^#goal-list {$/;"	i
+#main-header	styles/style.css	/^#main-header {	\/* #element-id *\/ $/;"	i
+#test-image1	styles/style.css	/^#test-image1 {$/;"	i
+.navbar-li	styles/style.css	/^.navbar-li {$/;"	c
+.p-headings	styles/style.css	/^.p-headings {	\/* .class *\/$/;"	c
+CuRated Magazine	index.html	/^			<h1 id="main-header"><em>CuRated Magazine<\/em><\/h1>$/;"	h
+Latest Issue	index.html	/^		<h2 class="p-headings">Latest Issue<\/h2>$/;"	i
+Third level heading	index.html	/^		<h3>Third level heading<\/h3>$/;"	j
+a[href="https://www.eloramilan.com"]	styles/style.css	/^a[href="https:\/\/www.eloramilan.com"] {	\/* element[attribute] *\/$/;"	s
+based	index.html	/^				<input id="based" type="radio" name="based-cringe"> Based and Redpilled$/;"	I
+body	styles/style.css	/^body {$/;"	s
+cringe	index.html	/^				<input id="cringe" type="radio" name="based-cringe"> Cringe and Bluepilled$/;"	I
+currentImg	scripts/main.js	/^let currentImg = document.querySelector('img');$/;"	v
+div	styles/style.css	/^div {$/;"	s
+female	index.html	/^				<input id="female" type="radio" name="male-female"> Female$/;"	I
+goal-list	index.html	/^		<ul id="goal-list">$/;"	I
+h2	styles/style.css	/^h2 {$/;"	s
+hr	styles/style.css	/^hr {$/;"	s
+html	styles/style.css	/^html {$/;"	s
+husband	index.html	/^				<input id="husband" type="radio" name="wife-husband"> Husband$/;"	I
+img	styles/style.css	/^img {$/;"	s
+input	styles/style.css	/^input {  \/* doesn't work *\/$/;"	s
+li a	styles/style.css	/^li a {$/;"	s
+li a:hover	styles/style.css	/^li a:hover {$/;"	s
+main-header	index.html	/^			<h1 id="main-header"><em>CuRated Magazine<\/em><\/h1>$/;"	I
+male	index.html	/^				<input id="male" type="radio" name="male-female"> Male$/;"	I
+myButton	scripts/main.js	/^let myButton = document.querySelector('button');$/;"	v
+myHeading	scripts/main.js	/^let myHeading = document.querySelector('h1');$/;"	v
+myVariable	scripts/main.js	/^let myVariable = 'bob';$/;"	v
+onclick	scripts/main.js	/^currentImg.onclick = function() {$/;"	f	function:currentImg
+onclick	scripts/main.js	/^myButton.onclick = function() {$/;"	f	function:myButton
+p	styles/style.css	/^p {$/;"	s
+setUserName	scripts/main.js	/^function setUserName() {$/;"	f
+storedName	scripts/main.js	/^	let storedName = localStorage.getItem('name');$/;"	v
+test-image1	index.html	/^		<img id="test-image1" src="https:\/\/eloramilan.files.wordpress.com\/2019\/09\/cover.png?w=869/;"	I
+ul[class="navbar-ul"]	styles/style.css	/^ul[class="navbar-ul"] {$/;"	s
+wife	index.html	/^				<input id="wife" type="radio" name="wife-husband"> Wife$/;"	I

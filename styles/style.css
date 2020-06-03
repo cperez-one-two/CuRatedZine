@@ -19,7 +19,7 @@ hr {
 	color: #EEE;
 }
 
-#main-header {	/* #element-id */ 
+#main-header {	/* #element-id */
 	font-size: 40px;
 	font-family: 'Crete Round', serif;
 	margin: 0 auto;
@@ -30,9 +30,11 @@ hr {
 	/*text-shadow: 3px 3px 1px gray;*/
 }
 
+/*
 #test-image1 {
 	transform: skewX(25deg);
 }
+*/
 
 ul[class="navbar-ul"] {
 	list-style-type: none;
@@ -43,7 +45,7 @@ ul[class="navbar-ul"] {
 	border-radius: 10px;
 	position: relative;
 	left: 80px;
-	
+
 }
 
 .navbar-li {
